@@ -13,5 +13,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="For running the GPT4All script via CLI")
     parser.add_argument("prompt", type=str, help="The prompt to send to llama")
     args = parser.parse_args()
-    print(args)
     main(args.prompt)
